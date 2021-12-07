@@ -20,7 +20,6 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Header><meta http-equiv="refresh" content="30"/></Header>
         <div className="row mrgnbtm">
           <Christmas christmas={this.state.christmas}></Christmas>
         </div>
