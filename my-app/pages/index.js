@@ -5,8 +5,7 @@ export default function Home() {
   return (
       <div>
           <Head>
-              <title>My page title</title>
-              <meta http-equiv="refresh" content="15" />
+              <title>T2 best team</title>
               <meta name="theme-color" content="#006400" />
           </Head>
         <App />
