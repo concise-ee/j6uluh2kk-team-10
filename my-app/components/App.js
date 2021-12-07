@@ -21,8 +21,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="row">
-          <Snowfall />
           <Christmas christmas={this.state.christmas} />
+          <Snowfall />
         </div>
       </div>
     );
