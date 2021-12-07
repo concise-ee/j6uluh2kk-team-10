@@ -40,6 +40,11 @@ a {
   text-align: center;
 }
 
+.decoration-image {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .mrgnbtm {
   margin-top: 20px;
 }
