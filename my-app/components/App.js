@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Header} from './Header'
 import {Christmas} from './Christmas'
 import {getChristmas} from '../services/ChristmasService'
+import Snowfall from 'react-snowfall'
 
 class App extends Component {
 
@@ -21,7 +21,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="row">
-          <Christmas christmas={this.state.christmas}></Christmas>
+          <Snowfall />
+          <Christmas christmas={this.state.christmas} />
         </div>
       </div>
     );
