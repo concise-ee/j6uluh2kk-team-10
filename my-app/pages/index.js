@@ -7,6 +7,7 @@ export default function Home() {
           <Head>
               <title>My page title</title>
               <meta http-equiv="refresh" content="15" />
+              <meta name="theme-color" content="#006400" />
           </Head>
         <App />
       </div>
