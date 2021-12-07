@@ -16,6 +16,10 @@ a {
   box-sizing: border-box;
 }
 
+.decoration-image {
+  padding: 50px;
+}
+
 .header {
   width: 100%;
   padding: 2%;

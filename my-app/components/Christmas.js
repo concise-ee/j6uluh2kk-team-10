@@ -3,7 +3,7 @@ import React from 'react'
 export const Christmas = ({christmas}) => {
     return(
         <div className="container">
-            <img src={'concise-6741-green.gif'}/>
+            <img className="decoration-image" src={'concise-6741-green.gif'}/>
         </div>
     )
 }
